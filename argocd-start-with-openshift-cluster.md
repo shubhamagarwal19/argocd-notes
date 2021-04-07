@@ -45,7 +45,7 @@ More(https://www.thegeekdiary.com/how-to-disable-or-set-selinux-to-permissive-mo
 
 7. Run `make mod-download`
 
-8. Run `make mode-vendor`
+8. Run `make mod-vendor`
 
 9. Run `make build`
 
