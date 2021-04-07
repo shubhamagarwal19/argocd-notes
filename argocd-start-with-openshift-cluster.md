@@ -25,7 +25,7 @@ oc apply -n argocd --force -f manifests/install.yaml
 
 4. Scale down any ArgoCD instance in your cluster
 ```
-kubectl -n argocd scale deployment/argocd-application-controller --replicas 0
+kubectl -n argocd scale rc/argocd-application-controller --replicas 0
 kubectl -n argocd scale deployment/argocd-dex-server --replicas 0
 kubectl -n argocd scale deployment/argocd-repo-server --replicas 0
 kubectl -n argocd scale deployment/argocd-server --replicas 0
